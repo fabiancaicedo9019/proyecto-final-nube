@@ -4,3 +4,10 @@ locals {
     Environment = "prod"
   }
 }
+
+locals {
+  common_tags = {
+    cost_center = "123456",
+    department  = "Engineering"
+  }
+}
